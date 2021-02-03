@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task_2</title>
+    <link rel="stylesheet" href="./assets/css/form2.css" />
+  </head>
+  <body>
+    <a href="index.html">Вернуться на основную страницу</a>
+    <a href="task1.html">Перейти к предыдущей</a>
+    <form action="#" method="GET" enctype="text/plain" autocomplete="off">
+      <div class="userFormContainer">
+        <div class="userFormHeader">
+          <hr class="lineHeader" />
+          <h2>Register</h2>
+          <p>Create your account. It's free and only takes a minute</p>
+        </div>
+        <div class="userName">
+          <div>
+            <input
+              type="text"
+              name="userFName"
+              placeholder="First Name"
+              maxlength="25"
+              required
+              autofocus
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              name="userLName"
+              placeholder="Last Name"
+              maxlength="25"
+              required
+            />
+          </div>
+        </div>
+        <div class="userEmail">
+          <input type="email" name="userEmail" placeholder="Email" required />
+        </div>
+
+        <div class="userPassword">
+          <input
+            type="password"
+            name="userPass"
+            placeholder="Password"
+            required
+          />
+        </div>
+        <div class="userPassword">
+          <input
+            type="password"
+            name="userCPass"
+            placeholder="Confirm Password"
+            required
+          />
+        </div>
+
+        <div class="userAccept">
+          <input type="checkbox" name="" id="" />
+          <span
+            >I accept the <a href="#">Therms of Use & Privacy Policy</a></span
+          >
+        </div>
+
+        <div class="userRegister">
+          <input
+            type="submit"
+            name="submitData"
+            value="Register Now"
+            formaction="#"
+          />
+        </div>
+      </div>
+    </form>
+    <script src="./assets/js/task2.js"></script>
+  </body>
+</html>
